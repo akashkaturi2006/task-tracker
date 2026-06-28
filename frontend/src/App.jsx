@@ -5,8 +5,7 @@ import "./App.css";
 import TaskForm from "./components/TaskForm";
 import TaskList from "./components/TaskList";
 
-const API = "http://localhost:5000/api/tasks";
-
+const API = "https://task-tracker-wue6.onrender.com/api/tasks";
 function App() {
   const [tasks, setTasks] = useState([]);
 
